@@ -9,22 +9,48 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#0E1011"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.barcodescanner"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#0E1011"
+      },
+      "package": "com.anonymous.barcodescanner"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
-  }
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "node_modules/@expo-google-fonts/montserrat/Montserrat_900Black.ttf",
+            "node_modules/@expo-google-fonts/montserrat/Montserrat_700Bold.ttf",
+            "node_modules/@expo-google-fonts/montserrat/Montserrat_600SemiBold.ttf",
+            "node_modules/@expo-google-fonts/montserrat/Montserrat_500Medium.ttf",
+            "node_modules/@expo-google-fonts/montserrat/Montserrat_400Regular.ttf",
+            "node_modules/@expo-google-fonts/montserrat/Montserrat_300Light.ttf",
+            "node_modules/@expo-google-fonts/montserrat/Montserrat_100Thin.ttf"
+          ]
+        }
+      ],
+      [
+        "react-native-vision-camera",
+        {
+          "cameraPermissionText": "Allow $(PRODUCT_NAME) to access your camera."
+        }
+      ]
+    ],
+    "sdkVersion": "50.0.0"
+  },
+  "name": "barcode-scanner"
 }
