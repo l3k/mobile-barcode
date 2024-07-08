@@ -20,7 +20,7 @@ O app foi desenvolvida com o objetivo de facilitar o controle de consumo de alim
 
 ## 📚 Links
 - [FrontEnd](https://github.com/l3k/frontend-barcode)
-- [Mobile](https://github.com/l3k/api-barcode)
+- [API](https://github.com/l3k/api-barcode)
 
 ## 🤔 Como excutar
 
