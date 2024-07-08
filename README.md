@@ -11,7 +11,7 @@
 
 ## 💻 Projeto
 
-A API foi desenvolvida com o objetivo de facilitar o controle de consumo de alimentos vendidos no [Espaço CMAKER](https://www.cmaker.com.br/).
+O app foi desenvolvida com o objetivo de facilitar o controle de consumo de alimentos vendidos no [Espaço CMAKER](https://www.cmaker.com.br/).
 
 ## 📦 Tecnologias
 
