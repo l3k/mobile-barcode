@@ -1,5 +1,5 @@
 <h1 align="center">
-    Barcode Scanner API
+    Barcode Scanner Mobile
 </h1>
 
 <p align="center">
